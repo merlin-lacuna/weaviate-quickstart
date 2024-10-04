@@ -1,26 +1,33 @@
-> Note: We are archiving this repository. The code for the Quickstart tutorial is available in-line on the [site](https://weaviate.io/developers/weaviate/quickstart).
+# Weaviate Jupyter Notebook Quickstart
 
-## Weaviate Quickstart Tutorial
+Learn how to ingest data into a Weaviate vector database then perform a semantic search on the data within an [interactive Jupyter Notebook](quickstart_end_to_end.ipynb).
 
-This repository contains files related to the [Weaviate Quickstart Tutorial](https://weaviate.io/developers/weaviate/quickstart).
 
-The `data` directory contains the relevant data file.
+## Ways to run the notebook
 
-You will need to install the appropriate [Weaviate client library](https://weaviate.io/developers/weaviate/client-libraries) in order to run these.
+You can run the notebook locally or in Google Colab.
 
-### Python users
+### Running the notebook in Google Colab
 
-The `quickstart_end_to_end.ipynb` will take you through the tutorial end-to-end. You can run view and run it with a local Jupyter instance, or on a cloud environment such as Google Colab.
+Open the [notebook file](https://github.com/merlin-lacuna/weaviate-quickstart/blob/main/quickstart_end_to_end.ipynb) in GitHub and click **Open in Colab**.
 
-### JavaScript users
 
-There are three files:
+### Running the notebook locally
 
-- quickstart_0_delete_class.js
-    - Deletes the `Question` class if one exists
-- quickstart_1_import.js
-    - Imports the data
-- quickstart_2_query.js
-    - Performs a `nearText` query
+To run the notebook locally, [set up a virtual environment](https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/) and install Jupyter and the IPython Kernel.
 
-You can run them with NodeJS, for example by typing: `node quickstart_0_delete_class.js`.
+`pip install notebook ipykernel`
+
+Get the notebook by cloning this repo:
+
+`git clone https://github.com/merlin-lacuna/weaviate-quickstart.git`
+
+Navigate into the repo, then run the notebook with the following command. 
+
+`jupyter notebook quickstart_end_to_end.ipynb`
+
+#### Running the notebook in Visual Studio Code
+
+If you use Visual Studio Code, you can open and run the notebook directly within the Visual Studio Code editor
+
+Make sure that you have the [Jupyter Extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) installed first.

@@ -1,6 +1,6 @@
 # Weaviate Jupyter Notebook Quickstart
 
-Learn how to ingest data into a Weaviate vector database then perform a semantic search on the data within an [interactive Jupyter Notebook](quickstart_end_to_end.ipynb).
+Learn how to ingest data into a Weaviate vector database then perform a semantic search on the data within an [interactive Jupyter Notebook](quickstart_mc.ipynb).
 
 
 ## Ways to run the notebook
@@ -9,7 +9,7 @@ You can run the notebook locally or in Google Colab.
 
 ### Running the notebook in Google Colab
 
-Open the [notebook file](https://github.com/merlin-lacuna/weaviate-quickstart/blob/main/quickstart_end_to_end.ipynb) in GitHub and click **Open in Colab**.
+Open the [notebook file](https://github.com/merlin-lacuna/weaviate-quickstart/blob/main/quickstart_mc.ipynb) in GitHub and click **Open in Colab**.
 
 
 ### Running the notebook locally
